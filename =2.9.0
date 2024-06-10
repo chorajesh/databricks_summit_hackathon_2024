@@ -1,0 +1,254 @@
+Collecting mlflow[genai]
+  Downloading mlflow-2.13.2-py3-none-any.whl (25.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 25.0/25.0 MB 56.9 MB/s eta 0:00:00
+Collecting querystring-parser<2
+  Downloading querystring_parser-1.2.4-py2.py3-none-any.whl (7.9 kB)
+Requirement already satisfied: protobuf<5,>=3.12.0 in /databricks/python3/lib/python3.10/site-packages (from mlflow[genai]) (4.25.3)
+Collecting docker<8,>=4.0.0
+  Downloading docker-7.1.0-py3-none-any.whl (147 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 147.8/147.8 kB 28.9 MB/s eta 0:00:00
+Collecting gitpython<4,>=3.1.9
+  Downloading GitPython-3.1.43-py3-none-any.whl (207 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 207.3/207.3 kB 36.8 MB/s eta 0:00:00
+Collecting pyyaml<7,>=5.1
+  Downloading PyYAML-6.0.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (705 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 705.5/705.5 kB 80.3 MB/s eta 0:00:00
+Requirement already satisfied: pyarrow<16,>=4.0.0 in /databricks/python3/lib/python3.10/site-packages (from mlflow[genai]) (8.0.0)
+Requirement already satisfied: entrypoints<1 in /databricks/python3/lib/python3.10/site-packages (from mlflow[genai]) (0.4)
+Collecting alembic!=1.10.0,<2
+  Downloading alembic-1.13.1-py3-none-any.whl (233 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 233.4/233.4 kB 25.2 MB/s eta 0:00:00
+Collecting opentelemetry-sdk<3,>=1.0.0
+  Downloading opentelemetry_sdk-1.25.0-py3-none-any.whl (107 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 107.0/107.0 kB 21.1 MB/s eta 0:00:00
+Requirement already satisfied: matplotlib<4 in /databricks/python3/lib/python3.10/site-packages (from mlflow[genai]) (3.7.0)
+Requirement already satisfied: numpy<2 in /databricks/python3/lib/python3.10/site-packages (from mlflow[genai]) (1.23.5)
+Requirement already satisfied: pytz<2025 in /databricks/python3/lib/python3.10/site-packages (from mlflow[genai]) (2022.7)
+Requirement already satisfied: Jinja2<4,>=2.11 in /databricks/python3/lib/python3.10/site-packages (from mlflow[genai]) (3.1.2)
+Collecting opentelemetry-api<3,>=1.0.0
+  Downloading opentelemetry_api-1.25.0-py3-none-any.whl (59 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.9/59.9 kB 10.5 MB/s eta 0:00:00
+Collecting cloudpickle<4
+  Downloading cloudpickle-3.0.0-py3-none-any.whl (20 kB)
+Requirement already satisfied: cachetools<6,>=5.0.0 in /databricks/python3/lib/python3.10/site-packages (from mlflow[genai]) (5.3.2)
+Collecting sqlalchemy<3,>=1.4.0
+  Downloading SQLAlchemy-2.0.30-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 102.0 MB/s eta 0:00:00
+Requirement already satisfied: scipy<2 in /databricks/python3/lib/python3.10/site-packages (from mlflow[genai]) (1.10.0)
+Collecting sqlparse<1,>=0.4.0
+  Downloading sqlparse-0.5.0-py3-none-any.whl (43 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 8.5 MB/s eta 0:00:00
+Requirement already satisfied: pandas<3 in /databricks/python3/lib/python3.10/site-packages (from mlflow[genai]) (1.5.3)
+Requirement already satisfied: scikit-learn<2 in /databricks/python3/lib/python3.10/site-packages (from mlflow[genai]) (1.1.1)
+Requirement already satisfied: click<9,>=7.0 in /databricks/python3/lib/python3.10/site-packages (from mlflow[genai]) (8.0.4)
+Collecting gunicorn<23
+  Downloading gunicorn-22.0.0-py3-none-any.whl (84 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 84.4/84.4 kB 20.6 MB/s eta 0:00:00
+Collecting graphene<4
+  Downloading graphene-3.3-py2.py3-none-any.whl (128 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.2/128.2 kB 25.9 MB/s eta 0:00:00
+Requirement already satisfied: importlib-metadata!=4.7.0,<8,>=3.7.0 in /usr/lib/python3/dist-packages (from mlflow[genai]) (4.6.4)
+Requirement already satisfied: packaging<25 in /databricks/python3/lib/python3.10/site-packages (from mlflow[genai]) (23.2)
+Collecting Flask<4
+  Downloading flask-3.0.3-py3-none-any.whl (101 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 101.7/101.7 kB 21.3 MB/s eta 0:00:00
+Collecting markdown<4,>=3.3
+  Downloading Markdown-3.6-py3-none-any.whl (105 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 105.4/105.4 kB 21.4 MB/s eta 0:00:00
+Requirement already satisfied: requests<3,>=2.17.3 in /databricks/python3/lib/python3.10/site-packages (from mlflow[genai]) (2.28.1)
+Collecting slowapi<1,>=0.1.9
+  Downloading slowapi-0.1.9-py3-none-any.whl (14 kB)
+Collecting watchfiles<1
+  Downloading watchfiles-0.22.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 94.2 MB/s eta 0:00:00
+Requirement already satisfied: pydantic<3,>=1.0 in /databricks/python3/lib/python3.10/site-packages (from mlflow[genai]) (1.10.6)
+Collecting fastapi<1
+  Downloading fastapi-0.111.0-py3-none-any.whl (91 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 92.0/92.0 kB 17.9 MB/s eta 0:00:00
+Collecting boto3<2,>=1.28.56
+  Downloading boto3-1.34.123-py3-none-any.whl (139 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 139.3/139.3 kB 24.7 MB/s eta 0:00:00
+Collecting tiktoken<1
+  Downloading tiktoken-0.7.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 90.1 MB/s eta 0:00:00
+Collecting uvicorn[standard]<1
+  Downloading uvicorn-0.30.1-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.4/62.4 kB 12.7 MB/s eta 0:00:00
+Collecting aiohttp<4
+  Downloading aiohttp-3.9.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 101.2 MB/s eta 0:00:00
+Collecting frozenlist>=1.1.1
+  Downloading frozenlist-1.4.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (239 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 239.5/239.5 kB 35.5 MB/s eta 0:00:00
+Collecting async-timeout<5.0,>=4.0
+  Downloading async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+Collecting aiosignal>=1.1.2
+  Downloading aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+Collecting yarl<2.0,>=1.0
+  Downloading yarl-1.9.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (301 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 301.6/301.6 kB 47.9 MB/s eta 0:00:00
+Collecting multidict<7.0,>=4.5
+  Downloading multidict-6.0.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (124 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.3/124.3 kB 24.8 MB/s eta 0:00:00
+Requirement already satisfied: attrs>=17.3.0 in /databricks/python3/lib/python3.10/site-packages (from aiohttp<4->mlflow[genai]) (22.1.0)
+Collecting Mako
+  Downloading Mako-1.3.5-py3-none-any.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.6/78.6 kB 16.1 MB/s eta 0:00:00
+Requirement already satisfied: typing-extensions>=4 in /databricks/python3/lib/python3.10/site-packages (from alembic!=1.10.0,<2->mlflow[genai]) (4.4.0)
+Collecting s3transfer<0.11.0,>=0.10.0
+  Downloading s3transfer-0.10.1-py3-none-any.whl (82 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.2/82.2 kB 16.8 MB/s eta 0:00:00
+Requirement already satisfied: jmespath<2.0.0,>=0.7.1 in /databricks/python3/lib/python3.10/site-packages (from boto3<2,>=1.28.56->mlflow[genai]) (0.10.0)
+Collecting botocore<1.35.0,>=1.34.123
+  Downloading botocore-1.34.123-py3-none-any.whl (12.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 88.0 MB/s eta 0:00:00
+Requirement already satisfied: urllib3>=1.26.0 in /databricks/python3/lib/python3.10/site-packages (from docker<8,>=4.0.0->mlflow[genai]) (1.26.14)
+Collecting orjson>=3.2.1
+  Downloading orjson-3.10.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (142 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 142.7/142.7 kB 27.7 MB/s eta 0:00:00
+Collecting fastapi-cli>=0.0.2
+  Downloading fastapi_cli-0.0.4-py3-none-any.whl (9.5 kB)
+Collecting typing-extensions>=4
+  Downloading typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Collecting email_validator>=2.0.0
+  Downloading email_validator-2.1.1-py3-none-any.whl (30 kB)
+Collecting starlette<0.38.0,>=0.37.2
+  Downloading starlette-0.37.2-py3-none-any.whl (71 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.9/71.9 kB 16.4 MB/s eta 0:00:00
+Collecting python-multipart>=0.0.7
+  Downloading python_multipart-0.0.9-py3-none-any.whl (22 kB)
+Requirement already satisfied: ujson!=4.0.2,!=4.1.0,!=4.2.0,!=4.3.0,!=5.0.0,!=5.1.0,>=4.0.1 in /databricks/python3/lib/python3.10/site-packages (from fastapi<1->mlflow[genai]) (5.4.0)
+Collecting httpx>=0.23.0
+  Downloading httpx-0.27.0-py3-none-any.whl (75 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 75.6/75.6 kB 17.0 MB/s eta 0:00:00
+Collecting click<9,>=7.0
+  Downloading click-8.1.7-py3-none-any.whl (97 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.9/97.9 kB 21.4 MB/s eta 0:00:00
+Collecting blinker>=1.6.2
+  Downloading blinker-1.8.2-py3-none-any.whl (9.5 kB)
+Collecting Werkzeug>=3.0.0
+  Downloading werkzeug-3.0.3-py3-none-any.whl (227 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 227.3/227.3 kB 31.1 MB/s eta 0:00:00
+Collecting itsdangerous>=2.1.2
+  Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Collecting gitdb<5,>=4.0.1
+  Downloading gitdb-4.0.11-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.7/62.7 kB 13.8 MB/s eta 0:00:00
+Collecting graphql-relay<3.3,>=3.1
+  Downloading graphql_relay-3.2.0-py3-none-any.whl (16 kB)
+Collecting graphql-core<3.3,>=3.1
+  Downloading graphql_core-3.2.3-py3-none-any.whl (202 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 202.9/202.9 kB 32.5 MB/s eta 0:00:00
+Collecting aniso8601<10,>=8
+  Downloading aniso8601-9.0.1-py2.py3-none-any.whl (52 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 52.8/52.8 kB 9.8 MB/s eta 0:00:00
+Requirement already satisfied: MarkupSafe>=2.0 in /databricks/python3/lib/python3.10/site-packages (from Jinja2<4,>=2.11->mlflow[genai]) (2.1.1)
+Requirement already satisfied: cycler>=0.10 in /databricks/python3/lib/python3.10/site-packages (from matplotlib<4->mlflow[genai]) (0.11.0)
+Requirement already satisfied: pillow>=6.2.0 in /databricks/python3/lib/python3.10/site-packages (from matplotlib<4->mlflow[genai]) (9.4.0)
+Requirement already satisfied: contourpy>=1.0.1 in /databricks/python3/lib/python3.10/site-packages (from matplotlib<4->mlflow[genai]) (1.0.5)
+Requirement already satisfied: kiwisolver>=1.0.1 in /databricks/python3/lib/python3.10/site-packages (from matplotlib<4->mlflow[genai]) (1.4.4)
+Requirement already satisfied: pyparsing>=2.3.1 in /databricks/python3/lib/python3.10/site-packages (from matplotlib<4->mlflow[genai]) (3.0.9)
+Requirement already satisfied: fonttools>=4.22.0 in /databricks/python3/lib/python3.10/site-packages (from matplotlib<4->mlflow[genai]) (4.25.0)
+Requirement already satisfied: python-dateutil>=2.7 in /databricks/python3/lib/python3.10/site-packages (from matplotlib<4->mlflow[genai]) (2.8.2)
+Collecting deprecated>=1.2.6
+  Downloading Deprecated-1.2.14-py2.py3-none-any.whl (9.6 kB)
+Collecting importlib-metadata!=4.7.0,<8,>=3.7.0
+  Downloading importlib_metadata-7.1.0-py3-none-any.whl (24 kB)
+Requirement already satisfied: zipp>=0.5 in /usr/lib/python3/dist-packages (from importlib-metadata!=4.7.0,<8,>=3.7.0->mlflow[genai]) (1.0.0)
+Collecting opentelemetry-semantic-conventions==0.46b0
+  Downloading opentelemetry_semantic_conventions-0.46b0-py3-none-any.whl (130 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.5/130.5 kB 25.4 MB/s eta 0:00:00
+Requirement already satisfied: six in /usr/lib/python3/dist-packages (from querystring-parser<2->mlflow[genai]) (1.16.0)
+Requirement already satisfied: charset-normalizer<3,>=2 in /databricks/python3/lib/python3.10/site-packages (from requests<3,>=2.17.3->mlflow[genai]) (2.0.4)
+Requirement already satisfied: idna<4,>=2.5 in /databricks/python3/lib/python3.10/site-packages (from requests<3,>=2.17.3->mlflow[genai]) (3.4)
+Requirement already satisfied: certifi>=2017.4.17 in /databricks/python3/lib/python3.10/site-packages (from requests<3,>=2.17.3->mlflow[genai]) (2022.12.7)
+Requirement already satisfied: joblib>=1.0.0 in /databricks/python3/lib/python3.10/site-packages (from scikit-learn<2->mlflow[genai]) (1.2.0)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /databricks/python3/lib/python3.10/site-packages (from scikit-learn<2->mlflow[genai]) (2.2.0)
+Collecting limits>=2.3
+  Downloading limits-3.12.0-py3-none-any.whl (45 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.5/45.5 kB 7.6 MB/s eta 0:00:00
+Collecting greenlet!=0.4.17
+  Downloading greenlet-3.0.3-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (616 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 616.0/616.0 kB 74.2 MB/s eta 0:00:00
+Collecting regex>=2022.1.18
+  Downloading regex-2024.5.15-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (775 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 775.1/775.1 kB 73.8 MB/s eta 0:00:00
+Collecting h11>=0.8
+  Downloading h11-0.14.0-py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.3/58.3 kB 11.8 MB/s eta 0:00:00
+Collecting httptools>=0.5.0
+  Downloading httptools-0.6.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (341 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 341.4/341.4 kB 45.9 MB/s eta 0:00:00
+Collecting uvloop!=0.15.0,!=0.15.1,>=0.14.0
+  Downloading uvloop-0.19.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 108.3 MB/s eta 0:00:00
+Collecting websockets>=10.4
+  Downloading websockets-12.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (130 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.2/130.2 kB 29.3 MB/s eta 0:00:00
+Collecting python-dotenv>=0.13
+  Downloading python_dotenv-1.0.1-py3-none-any.whl (19 kB)
+Requirement already satisfied: anyio>=3.0.0 in /databricks/python3/lib/python3.10/site-packages (from watchfiles<1->mlflow[genai]) (3.5.0)
+Requirement already satisfied: sniffio>=1.1 in /databricks/python3/lib/python3.10/site-packages (from anyio>=3.0.0->watchfiles<1->mlflow[genai]) (1.2.0)
+Collecting wrapt<2,>=1.10
+  Downloading wrapt-1.16.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (80 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.3/80.3 kB 16.3 MB/s eta 0:00:00
+Collecting dnspython>=2.0.0
+  Downloading dnspython-2.6.1-py3-none-any.whl (307 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 307.7/307.7 kB 43.9 MB/s eta 0:00:00
+Collecting typer>=0.12.3
+  Downloading typer-0.12.3-py3-none-any.whl (47 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.2/47.2 kB 10.8 MB/s eta 0:00:00
+Collecting smmap<6,>=3.0.1
+  Downloading smmap-5.0.1-py3-none-any.whl (24 kB)
+Collecting httpcore==1.*
+  Downloading httpcore-1.0.5-py3-none-any.whl (77 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 77.9/77.9 kB 17.3 MB/s eta 0:00:00
+Collecting importlib-resources>=1.3
+  Downloading importlib_resources-6.4.0-py3-none-any.whl (38 kB)
+Collecting shellingham>=1.3.0
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Collecting rich>=10.11.0
+  Downloading rich-13.7.1-py3-none-any.whl (240 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 240.7/240.7 kB 46.1 MB/s eta 0:00:00
+Collecting pygments<3.0.0,>=2.13.0
+  Downloading pygments-2.18.0-py3-none-any.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 93.5 MB/s eta 0:00:00
+Collecting markdown-it-py>=2.2.0
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 20.6 MB/s eta 0:00:00
+Collecting mdurl~=0.1
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: aniso8601, wrapt, Werkzeug, websockets, uvloop, typing-extensions, sqlparse, smmap, shellingham, regex, querystring-parser, pyyaml, python-multipart, python-dotenv, pygments, orjson, multidict, mdurl, markdown, Mako, itsdangerous, importlib-resources, importlib-metadata, httptools, h11, gunicorn, greenlet, graphql-core, frozenlist, dnspython, cloudpickle, click, blinker, async-timeout, yarl, watchfiles, uvicorn, tiktoken, starlette, sqlalchemy, markdown-it-py, httpcore, graphql-relay, gitdb, Flask, email_validator, docker, deprecated, botocore, aiosignal, s3transfer, rich, opentelemetry-api, limits, httpx, graphene, gitpython, alembic, aiohttp, typer, slowapi, opentelemetry-semantic-conventions, boto3, opentelemetry-sdk, fastapi-cli, mlflow, fastapi
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.4.0
+    Not uninstalling typing-extensions at /databricks/python3/lib/python3.10/site-packages, outside environment /local_disk0/.ephemeral_nfs/envs/pythonEnv-8c566f10-0304-47bb-a724-534a2b079818
+    Can't uninstall 'typing_extensions'. No files were found to uninstall.
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.11.2
+    Not uninstalling pygments at /databricks/python3/lib/python3.10/site-packages, outside environment /local_disk0/.ephemeral_nfs/envs/pythonEnv-8c566f10-0304-47bb-a724-534a2b079818
+    Can't uninstall 'Pygments'. No files were found to uninstall.
+  Attempting uninstall: importlib-metadata
+    Found existing installation: importlib-metadata 4.6.4
+    Not uninstalling importlib-metadata at /usr/lib/python3/dist-packages, outside environment /local_disk0/.ephemeral_nfs/envs/pythonEnv-8c566f10-0304-47bb-a724-534a2b079818
+    Can't uninstall 'importlib-metadata'. No files were found to uninstall.
+  Attempting uninstall: click
+    Found existing installation: click 8.0.4
+    Not uninstalling click at /databricks/python3/lib/python3.10/site-packages, outside environment /local_disk0/.ephemeral_nfs/envs/pythonEnv-8c566f10-0304-47bb-a724-534a2b079818
+    Can't uninstall 'click'. No files were found to uninstall.
+  Attempting uninstall: blinker
+    Found existing installation: blinker 1.4
+    Not uninstalling blinker at /usr/lib/python3/dist-packages, outside environment /local_disk0/.ephemeral_nfs/envs/pythonEnv-8c566f10-0304-47bb-a724-534a2b079818
+    Can't uninstall 'blinker'. No files were found to uninstall.
+  Attempting uninstall: botocore
+    Found existing installation: botocore 1.27.96
+    Not uninstalling botocore at /databricks/python3/lib/python3.10/site-packages, outside environment /local_disk0/.ephemeral_nfs/envs/pythonEnv-8c566f10-0304-47bb-a724-534a2b079818
+    Can't uninstall 'botocore'. No files were found to uninstall.
+  Attempting uninstall: s3transfer
+    Found existing installation: s3transfer 0.6.2
+    Not uninstalling s3transfer at /databricks/python3/lib/python3.10/site-packages, outside environment /local_disk0/.ephemeral_nfs/envs/pythonEnv-8c566f10-0304-47bb-a724-534a2b079818
+    Can't uninstall 's3transfer'. No files were found to uninstall.
+  Attempting uninstall: boto3
+    Found existing installation: boto3 1.24.28
+    Not uninstalling boto3 at /databricks/python3/lib/python3.10/site-packages, outside environment /local_disk0/.ephemeral_nfs/envs/pythonEnv-8c566f10-0304-47bb-a724-534a2b079818
+    Can't uninstall 'boto3'. No files were found to uninstall.
+Successfully installed Flask-3.0.3 Mako-1.3.5 Werkzeug-3.0.3 aiohttp-3.9.5 aiosignal-1.3.1 alembic-1.13.1 aniso8601-9.0.1 async-timeout-4.0.3 blinker-1.8.2 boto3-1.34.123 botocore-1.34.123 click-8.1.7 cloudpickle-3.0.0 deprecated-1.2.14 dnspython-2.6.1 docker-7.1.0 email_validator-2.1.1 fastapi-0.111.0 fastapi-cli-0.0.4 frozenlist-1.4.1 gitdb-4.0.11 gitpython-3.1.43 graphene-3.3 graphql-core-3.2.3 graphql-relay-3.2.0 greenlet-3.0.3 gunicorn-22.0.0 h11-0.14.0 httpcore-1.0.5 httptools-0.6.1 httpx-0.27.0 importlib-metadata-7.1.0 importlib-resources-6.4.0 itsdangerous-2.2.0 limits-3.12.0 markdown-3.6 markdown-it-py-3.0.0 mdurl-0.1.2 mlflow-2.13.2 multidict-6.0.5 opentelemetry-api-1.25.0 opentelemetry-sdk-1.25.0 opentelemetry-semantic-conventions-0.46b0 orjson-3.10.4 pygments-2.18.0 python-dotenv-1.0.1 python-multipart-0.0.9 pyyaml-6.0.1 querystring-parser-1.2.4 regex-2024.5.15 rich-13.7.1 s3transfer-0.10.1 shellingham-1.5.4 slowapi-0.1.9 smmap-5.0.1 sqlalchemy-2.0.30 sqlparse-0.5.0 starlette-0.37.2 tiktoken-0.7.0 typer-0.12.3 typing-extensions-4.12.2 uvicorn-0.30.1 uvloop-0.19.0 watchfiles-0.22.0 websockets-12.0 wrapt-1.16.0 yarl-1.9.4
